@@ -24,7 +24,7 @@ CRI-O
 
 # Container vs Virtual machines 
 
-![image](https://github.com/saikiranpi/Mastering-Docker/assets/109568252/980faa67-603b-46d5-bb0b-83d40a22de08)
+https://github.com/aakumar07/Career_001/blob/main/Docker/Day1/Docker.png
 
 Virtual Machines (VMs) are like having a complete, separate computer within your computer. Each VM runs its own full operating system, like having another Windows or Linux inside your main system. Because they need to load an entire OS, VMs are big and take a while to start. They are very isolated from each other, making them secure, as each VM operates independently without knowing about the others.
 
