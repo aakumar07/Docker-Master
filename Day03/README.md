@@ -1,7 +1,4 @@
 
-![03](https://github.com/saikiranpi/Mastering-Docker/assets/109568252/099fe856-0a3f-4b60-b093-c240d20834f1)
-
-
 ## Table of Contents
 
 1. [Introduction to Docker Containers](#introduction-to-docker-containers)
