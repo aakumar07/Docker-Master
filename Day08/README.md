@@ -69,7 +69,7 @@ docker network ls
 
 ```bash
 # Deploy a sample service
-docker service create --name app1 --replicas 3 --publish 8000:80 kiran2361993/rollingupdate:v10
+docker service create --name app1 --replicas 3 --publish 8000:80 anumulasetty/rollingupdates:v1
 
 # Scale the service up
 docker service scale app1=6
@@ -78,7 +78,7 @@ docker service scale app1=6
 docker service scale app1=1
 
 # Deploy service only on worker nodes
-docker service create --name app1 --constraint node.role==worker --replicas 6 --publish 8000:80 kiran2361993/rollingupdate:v10
+docker service create --name app1 --constraint node.role==worker --replicas 6 --publish 8000:80 anumulasetty/rollingupdates:v1
 
 # Deploy a global service (runs on every node)
 docker service create --name monitor --publish 9100:9100 --mode global prom/node-exporter
