@@ -29,7 +29,7 @@ This repository demonstrates the setup of a voting application using Docker Swar
 1. **Swploy Swarm Cluster **
 
    ```sh
-   git clone https://github.com/saikiranpi/Terraform-Docker-Swarm-Cluster.git
+   git clone https://github.com/aakumar07/Terraform-Docker-Swarm-Cluster.git
    cd Terraform-Docker-Swarm-Cluster
    ```
 
